@@ -123,6 +123,7 @@ else
   echo ${config_opening}'
   "extends": [
     "airbnb",
+	"airbnb/hooks",
     "prettier",
     "prettier/react",
     "plugin:jsx-a11y/recommended"
